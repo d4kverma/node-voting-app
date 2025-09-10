@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: MYAPP
+  name: test
   namespace: default
   labels:
-    app: MYAPP
+    app: test
 spec:
   storageClassName: rook-ceph-block
   accessModes:
