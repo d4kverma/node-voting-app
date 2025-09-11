@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name:  test
-  namespace: deepak
+  namespace: deepak-1
   labels:
     app:  test
 spec:
